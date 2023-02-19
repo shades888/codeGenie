@@ -30,7 +30,7 @@ app.use(express.json());
 //asynchronous function that is going to accept a request and response
 app.get('/', async(req, res) => {
     res.status(200).send({
-        message: 'Hello from CodeX',
+        message: 'Hello from Code Genie',
     })
 })
 

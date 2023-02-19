@@ -94,7 +94,7 @@ const handleSubmit = async (e) => {
 
     //this area is where we can fetch data from server and get the bot's response
 
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://codegenie-xnul.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type' : 'application/json'
