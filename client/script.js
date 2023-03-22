@@ -124,18 +124,18 @@ const handleSubmit = async (e) => {
     }
 }
 
-/*in order to see the changes in handlesubmit we need to hold
+//in order to see the changes in handlesubmit we need to hold
 form.addEventListener('submit', handleSubmit)
 form.addEventListener('keyup', (e) => {
     if(e.keyCode === 13){
        handleSubmit(e);
     }
 })
-*/
+
 
 //allows you to press enter,
-form.addEventListener('submit', handleSubmit);
-document.querySelector('#submit-button').addEventListener('click', (e) => {
-    e.preventDefault();
-    handleSubmit(e);
-});
+// form.addEventListener('submit', handleSubmit);
+// document.querySelector('#submit-button').addEventListener('click', (e) => {
+//     e.preventDefault();
+//     handleSubmit(e);
+// });
